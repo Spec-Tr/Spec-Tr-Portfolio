@@ -1,8 +1,11 @@
 body{
-    background-color: olive
-    color
+    color:orange;
+    background-color: olive;
+    font-family:'Courier New', Courier, monospace
 }
-
-.heading {
-    
+.heading{
+    border: 4px dashed orange;
+}
+.mainNav{
+    font-size: 18px;
 }
