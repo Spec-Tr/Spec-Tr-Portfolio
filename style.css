@@ -5,6 +5,7 @@ body{
 }
 .heading{
     display:flex;
+    flex-wrap: wrap;
     border: 4px dashed orange;
     justify-content:center;
 }
@@ -15,4 +16,10 @@ body{
     align-items:flex-end;
     font-size: 15px;
     padding: 8px;
+}
+#avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
