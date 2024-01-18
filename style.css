@@ -1,25 +1,44 @@
+:root {
+    --header-color:olive;
+    --background-color:rgb(221, 221, 112);
+
+}
+
 body{
-    color:orange;
+    color:orange; 
     background-color: olive;
     font-family:'Courier New', Courier, monospace
 }
-.heading{
+.header{
     display:flex;
-    flex-wrap: wrap;
     border: 4px dashed orange;
-    justify-content:center;
+    align-items:center;
 }
 .mainNav{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    align-items:flex-end;
-    font-size: 15px;
     padding: 8px;
+    margin-left:auto;
 }
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display the list items in a row */
+    align-self:flex-end;
+}
+
+li {
+    margin-right: 20px; /* Adjust the margin between list items as needed */
+}
+
 #avatar{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items:flex-start;
+}
+h1{
+    font-size: 250%;
 }
