@@ -1,44 +1,90 @@
 :root {
-    --header-color:olive;
-    --background-color:rgb(221, 221, 112);
-
+    --header-color: olive;
+    --background-color: rgb(173, 173, 76);
 }
 
-body{
-    color:orange; 
+body {
+    color: orange;
     background-color: olive;
-    font-family:'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
-.header{
-    display:flex;
-    border: 4px dashed orange;
-    align-items:center;
+
+.header {
+    display: flex;
+    border-bottom: 4px dashed orange;
+    align-items: center;
+    background-color: rgb(75, 75, 0);
+    width: 100%;
 }
-.mainNav{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    padding: 8px;
-    margin-left:auto;
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: flex-end;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Display the list items in a row */
-    align-self:flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-self: flex-end;
 }
 
 li {
-    margin-right: 20px; /* Adjust the margin between list items as needed */
+    margin-right: 20px;
 }
 
-#avatar{
+#avatar {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
 }
-h1{
-    font-size: 250%;
+
+h1 {
+    font-size: 225%;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.infoSection {
+    margin: 30px;
+    display: flex;
+}
+.bioDiv{
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.bioSubDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+}
+
+h2 {
+    margin-bottom: 10px; 
+    padding:0;
+
+}
+
+#bioText {
+    display: flex;
+    margin: 10px; 
+    padding:50px;
+    max-width: auto;
+}
+
+p{
+    padding:50px;
 }
