@@ -55,15 +55,10 @@ h1 {
     margin-left: 20px;
     margin-right: auto;
 }
-
-/* .infoSection {
-    margin: 30px;
-    display: flex;
-} */
 .bioDiv{
     display: flex;
+    justify-content:space-around;
 }
-
 .bioSubDiv{
     display: flex;
     align-items:center; 
