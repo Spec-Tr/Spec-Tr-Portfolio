@@ -20,8 +20,14 @@ body {
 
 .nav {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-around;
     margin-left: auto;
     align-items: flex-end;
 }
@@ -38,11 +44,6 @@ ul {
     display: flex;
     align-self: flex-end;
 }
-
-li {
-    margin-right: 20px;
-}
-
 #avatar {
     display: flex;
     flex-direction: column;
@@ -68,11 +69,15 @@ h1 {
 
 .bioSubDiv{
     display: flex;
-    flex-direction: column;
-    justify-content:center; 
+    align-items:center; 
+    border-right: orange solid 5px;
+    padding: 10px;
+    width: 140px;
 }
 
 h2 {
+    display: flex;
+    align-self:flex-start;
     margin-bottom: 10px; 
     padding:0;
 
@@ -80,11 +85,39 @@ h2 {
 
 #bioText {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 10px; 
-    padding:50px;
-    max-width: auto;
+    padding: 50px;
 }
 
 p{
     padding:50px;
+}
+
+.contactInfo{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+li {
+    margin: 50px; 
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: orangered;
+}
+a:visited{
+    color:purple;
 }
