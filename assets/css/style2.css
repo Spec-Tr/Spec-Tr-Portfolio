@@ -1,0 +1,42 @@
+:root {
+    --header-color: olive;
+    --background-color: rgb(194, 194, 92);
+    --text-color: orange;
+    --dark-text-color: rgb(255, 132, 0);
+    --text-hover-color: orangered;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+}
+body a{
+    color:var(--text-color);
+}
+body a:hover{
+    color:var(--text-hover-color);
+}
+header{
+    background-color: var(--header-color);
+    color:var(--text-color);
+    display:flex;
+    justify-content:center;
+}
+main{
+    background-color: var(--background-color);
+    display:flex;
+    flex-direction: column;
+}
+section{
+    display:flex;
+    color: var(--dark-text-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainHeading{
+    min-width:20%;
+    border-right: solid orange 5px;
+    display:flex;
+}
+.mainText{
+    padding: 5px;
+}
