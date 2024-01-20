@@ -113,6 +113,7 @@ li {
 }
 a{
     color: orange;
+    font-weight: bold;
 }
 a:hover{
     color: orangered;
