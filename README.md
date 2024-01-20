@@ -26,7 +26,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Screenshot of the app as viewed in a desktop browser](assets/images/portfolioCap.png)
 
 ## Link to Deployed Website
-https://spec-tr.github.io/Spec-Tr-portfolio/
+https://spec-tr.github.io/Spec-Tr-Portfolio/
+
 
 ## Technologies
 
